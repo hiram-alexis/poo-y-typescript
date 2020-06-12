@@ -1,5 +1,6 @@
 // String
 var cadena = "alexospears.com";
+cadena = 12;
 // Number
 var numero = 12;
 // Boleano

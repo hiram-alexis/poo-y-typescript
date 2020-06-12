@@ -1,6 +1,8 @@
 // String
 
-let cadena: string = "alexospears.com";
+let cadena: string | number = "alexospears.com";
+
+cadena = 12;
 
 // Number
 
