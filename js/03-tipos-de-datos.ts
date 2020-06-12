@@ -1,8 +1,10 @@
+type alfanumerico = string | number;
+
 // String
 
-let cadena: string | number = "alexospears.com";
+let cadena: alfanumerico = "alexospears.com";
 
-cadena = 12;
+cadena = 44;
 
 // Number
 
