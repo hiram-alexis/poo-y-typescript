@@ -1,9 +1,10 @@
-"use strict";
-exports.__esModule = true;
-var Main = /** @class */ (function () {
-    function Main() {
+/*
+import {Camiseta} from './camiseta';
+class Main{
+    constructor(){
         console.log("Aplicación JS cargada!");
     }
-    return Main;
-}());
+}
+
 new Main();
+*/ 

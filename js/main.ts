@@ -1,3 +1,4 @@
+/*
 import {Camiseta} from './camiseta';
 class Main{
 	constructor(){
@@ -6,3 +7,4 @@ class Main{
 }
 
 new Main();
+*/

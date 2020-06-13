@@ -9,11 +9,13 @@ var Camiseta = /** @class */ (function () {
         this.talla = talla;
         this.precio = precio;
     }
-    Camiseta.prototype.setColor = function (color) {
+    Camiseta.prototype.setColorUno = function (color) {
         this.color = color;
     };
-    Camiseta.prototype.getColor = function () {
+    Camiseta.prototype.getColorDos = function () {
         return this.color;
     };
     return Camiseta;
 }());
+var camiseta = new Camiseta("uno", "dos", "tres", "Cuatro", 1);
+console.log(camiseta);
