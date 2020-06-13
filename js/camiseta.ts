@@ -22,13 +22,30 @@ class Camiseta implements CamisetaBase{
 			this. precio = precio;
 
 		}
-		public setColorUno(color){
+		public setColor(color){
 			this.color =color;
 		}
-		public getColorDos (){
+		public getColor(){
 			return this.color
 		}
 }
 
+// Clase hija
+class Sudadera extends Camiseta{
+	public capucha: boolean;
+
+	setCapucha(capucha: boolean){
+		this.capucha = capucha;
+	}
+	getCapucha(){
+		return this.capucha;
+	}
+}
+
 var camiseta = new Camiseta("uno", "dos", "tres", "Cuatro", 1);
 console.log(camiseta);
+
+var sudadera_nike = new Sudadera("Rojo", "Manga Larga", "Nike", "L", 30);
+sudadera_nike.setCapucha(true);
+sudadera_nike.setColor("Gris Jaspeado");
+console.log(sudadera_nike);
