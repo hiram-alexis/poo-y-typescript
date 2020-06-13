@@ -30,7 +30,7 @@ var numero2=12;
 if(numero1 ==10){
 	let numero1 =44;
 	let numero2 =55;
-	console.log("Variables locales = "numero1," , ",numero2);
+	console.log(numero1,numero2);
 }
-console.log("Variables globales = "numero1," , ",numero2);
+console.log(numero1,numero2);
 console.log(cadena, numero, verdadero_falso, cualquiera, lenguajes, years);
